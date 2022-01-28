@@ -1,0 +1,33 @@
+{
+  "name": "logic-puzzle-solver",
+  "version": "1.0.0",
+  "description": "Logic puzzle solver",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merrazquin/logic-puzzle-solver.git"
+  },
+  "keywords": [
+    "logic",
+    "puzzle",
+    "solver"
+  ],
+  "author": "Marcela Errazquin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/merrazquin/logic-puzzle-solver/issues"
+  },
+  "homepage": "https://github.com/merrazquin/logic-puzzle-solver#readme",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "inquirer": "^8.2.0",
+    "yargs": "^13.2.4"
+  }
+}
